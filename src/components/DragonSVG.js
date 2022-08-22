@@ -11,7 +11,7 @@ const DragonSVG = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 -8 500 500"
+      viewBox="0 -8 500 500  "
       height={dimensions.height}
       width={dimensions.width}
     >

@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { ColorPallete } from "../components";
 import { useNavigate } from "react-router-dom";
 import "./../pages/styles/svg_pages.css";
+import "./../pages/styles/editor.css";
 import { SvgContext } from "../context";
 import { FaArrowLeft } from "react-icons/fa";
 import { VscDebugRestart } from "react-icons/vsc";
