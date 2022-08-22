@@ -7,18 +7,16 @@ const SvgProvider = ({ children }) => {
   const [currentColor, setCurrentColor] = useState("blue");
 
   const colorsArray = [
-    "#FF0000",
-    "#ffa500",
-    "#FFFF00",
-    "#00FF00",
-    "#00FFFF",
-    "#0000FF",
-    "#FF00FF",
-    "#800080",
-    "#FFFFFF",
+    "#0000ff",
+    "#cc0099",
+    "#993300",
+    "#ff66cc",
     "#000000",
-    "#454545",
-    "#999999",
+    "#FF0000",
+    "#ff6600",
+    "#00FFFF",
+    "#00cc00",
+    "#ffff00",
   ];
   //reset
   const reset = () => {
@@ -31,7 +29,7 @@ const SvgProvider = ({ children }) => {
   //heights
   const [heights] = useState({
     headerHeight: 80,
-    palleteHeight: 140,
+    palleteHeight: 50,
     borders: 10,
   });
   const heightsSum =

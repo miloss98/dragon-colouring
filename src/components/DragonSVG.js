@@ -10,10 +10,8 @@ const DragonSVG = () => {
   }, []);
   return (
     <svg
-      id="Layer_1"
-      data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 478.83 497.81"
+      viewBox="0 -8 500 500"
       height={dimensions.height}
       width={dimensions.width}
     >
