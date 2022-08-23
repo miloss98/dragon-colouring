@@ -1,0 +1,20 @@
+.logo-container {
+  position: absolute;
+  top: 60px;
+  left: 320px;
+  height: 100px;
+  width: 180px;
+  transform: rotate(-5deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 15%;
+  box-shadow: 2px 2px 2px black;
+}
+.logo-img {
+  height: 100%;
+  width: 100%;
+}

@@ -1,9 +1,10 @@
 import { title } from "../images/index";
+import "./../components/styles/logo.css";
 
 const Logo = () => {
   return (
     <div className="logo-container">
-      <img width={"30%"} height={"100%"} src={title} alt="title" />
+      <img className="logo-img" src={title} alt="title" />
     </div>
   );
 };

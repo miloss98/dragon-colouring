@@ -6,6 +6,8 @@ import "./../pages/styles/editor.css";
 import { SvgContext } from "../context";
 import { FaArrowLeft } from "react-icons/fa";
 import { VscDebugRestart } from "react-icons/vsc";
+//
+import { Logo } from "../components/index";
 
 const EditorPage = ({ SVGComponent, title }) => {
   const { reset, setCurrentColor } = useContext(SvgContext);
@@ -35,7 +37,10 @@ const EditorPage = ({ SVGComponent, title }) => {
             <VscDebugRestart className="reset-btn" onClick={() => reset()} />
           </article>
         </section>
-        <section className="svg-container">{element}</section>
+        <section className="svg-container">
+          <Logo />
+          {element}
+        </section>
         <section className="pallete-container">
           <ColorPallete />
         </section>
