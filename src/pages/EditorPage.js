@@ -22,8 +22,8 @@ const EditorPage = ({ SVGComponent, title }) => {
   }, []);
 
   return (
-    <div className="wrapper">
-      <div className="container">
+    <div className="editor-wrapper">
+      <div className="editor-container">
         <section className="header">
           <article className="back-container">
             <FaArrowLeft onClick={() => navigate(-1)} className="go-back" />

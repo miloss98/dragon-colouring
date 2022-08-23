@@ -7,9 +7,9 @@ const HomePage = () => {
   const { pages } = useContext(SvgContext);
 
   return (
-    <div className="homepage-wrapper ">
+    <div className="homepage-wrapper">
       <nav>
-        <h1 className="app-title">Colouring Book </h1>
+        <h4 className="app-title">Colouring Book </h4>
       </nav>
       <div className="content-container">
         <section className="content">

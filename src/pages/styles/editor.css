@@ -1,1 +1,18 @@
 /* editor styles (as container) */
+.editor-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.editor-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
