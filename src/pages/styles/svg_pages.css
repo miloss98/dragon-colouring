@@ -1,8 +1,9 @@
 /* Header */
 .header {
   width: 50%;
-  height: 80px;
+  height: 60px;
   display: flex;
+  margin-top: 5px;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;

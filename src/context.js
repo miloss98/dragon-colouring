@@ -1,6 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { DragonSVG } from "./components/index";
 import { dragon_example } from "./images/index";
+//crayons
+import {
+  black,
+  blue,
+  orange,
+  red,
+  purple,
+  green,
+  pink,
+  lightblue,
+  yellow,
+  brown,
+} from "./images/crayons/index";
 
 const SvgContext = React.createContext();
 
@@ -8,16 +21,16 @@ const SvgProvider = ({ children }) => {
   const [currentColor, setCurrentColor] = useState("blue");
 
   const colorsArray = [
-    "#0000ff",
-    "#cc0099",
-    "#993300",
-    "#ff66cc",
-    "#000000",
-    "#FF0000",
-    "#ff6600",
-    "#00FFFF",
-    "#00cc00",
-    "#ffff00",
+    { color: "#0000ff", image: blue },
+    { color: "#cc0099", image: purple },
+    { color: "#993300", image: brown },
+    { color: "#ff66cc", image: pink },
+    { color: "#000000", image: black },
+    { color: "#FF0000", image: red },
+    { color: "#ff6600", image: orange },
+    { color: "#00FFFF", image: lightblue },
+    { color: "#00cc00", image: green },
+    { color: "#ffff00", image: yellow },
   ];
   //reset
   const reset = () => {
