@@ -2,7 +2,7 @@ import "./styles/errorpage.css";
 import { useNavigate } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
 
-const Error = () => {
+const ErrorPage = () => {
   const navigate = useNavigate();
   return (
     <div className="error-wrapper">
@@ -23,4 +23,4 @@ const Error = () => {
   );
 };
 
-export default Error;
+export default ErrorPage;

@@ -37,7 +37,7 @@ nav {
   height: 100%;
   margin: 5rem 0rem 5rem 0rem;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   grid-gap: 5%;
   justify-content: center;
 }

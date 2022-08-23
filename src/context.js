@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { DragonSVG } from "./components/index";
+import dragon_example from "./dragon-example.png";
 
 const SvgContext = React.createContext();
 
@@ -72,6 +73,7 @@ const SvgProvider = ({ children }) => {
     {
       title: "Dragon",
       path: "/dragon",
+      image: dragon_example,
     },
   ];
   return (

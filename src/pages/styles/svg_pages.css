@@ -67,7 +67,15 @@
 svg:hover {
   cursor: url("./../../crayon50.png") 6 40, move;
 }
-
+/* Pallete */
+.pallete-container {
+  height: 140px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* media queries */
 @media only screen and (max-width: 1400px) {
   .svg-container {

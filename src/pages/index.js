@@ -1,5 +1,5 @@
-import Home from "./Home";
-import Error from "./Error";
-import Editor from "./Editor";
+import HomePage from "./HomePage";
+import ErrorPage from "./ErrorPage";
+import EditorPage from "./EditorPage";
 
-export { Home, Error, Editor };
+export { HomePage, ErrorPage, EditorPage };

@@ -7,7 +7,7 @@ import { SvgContext } from "../context";
 import { FaArrowLeft } from "react-icons/fa";
 import { VscDebugRestart } from "react-icons/vsc";
 
-const Editor = ({ SVGComponent, title }) => {
+const EditorPage = ({ SVGComponent, title }) => {
   const { reset, setCurrentColor } = useContext(SvgContext);
   const navigate = useNavigate();
 
@@ -44,4 +44,4 @@ const Editor = ({ SVGComponent, title }) => {
   );
 };
 
-export default Editor;
+export default EditorPage;

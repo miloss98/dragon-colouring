@@ -1,4 +1,4 @@
-import "./styles/pallete.css";
+import "./styles/color_pallete.css";
 import { SvgContext } from "../context";
 import { useContext } from "react";
 const ColorPallete = () => {

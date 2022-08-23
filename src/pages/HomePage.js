@@ -2,14 +2,14 @@ import { NavLink } from "react-router-dom";
 import "./styles/homepage.css";
 import { useContext } from "react";
 import { SvgContext } from "../context";
-import title_image from "../title.png";
-const Home = () => {
+
+const HomePage = () => {
   const { pages } = useContext(SvgContext);
 
   return (
     <div className="homepage-wrapper ">
       <nav>
-        <img width={"30%"} height={"100%"} src={title_image} alt="title" />
+        <h1 className="app-title">Colouring Book </h1>
       </nav>
       <div className="content-container">
         <section className="content">
@@ -30,4 +30,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
