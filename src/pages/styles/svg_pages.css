@@ -65,7 +65,7 @@
   align-items: center;
 }
 svg:hover {
-  cursor: url("./../../crayon50.png") 6 40, move;
+  cursor: url("../../pages/index") 6 40, move;
 }
 /* Pallete */
 .pallete-container {

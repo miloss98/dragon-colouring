@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { DragonSVG } from "./components/index";
-import dragon_example from "./dragon-example.png";
+import { dragon_example } from "./images/index";
 
 const SvgContext = React.createContext();
 
