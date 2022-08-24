@@ -30,14 +30,12 @@ const EditorPage = ({ SVGComponent, title }) => {
           <article className="back-container">
             <FaArrowLeft onClick={() => navigate(-1)} className="go-back" />
           </article>
+          <Logo />
           <article className="reset-container">
             <VscDebugRestart className="reset-btn" onClick={() => reset()} />
           </article>
         </section>
-        <section className="svg-container">
-          <Logo />
-          {element}
-        </section>
+        <section className="svg-container">{element}</section>
         <section className="pallete-container">
           <ColorPallete />
         </section>

@@ -1,5 +1,5 @@
 import { title } from "../images/index";
-import "./../components/styles/logo.css";
+import "./../pages/styles/svg_pages.css";
 
 const Logo = () => {
   return (
