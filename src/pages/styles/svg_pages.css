@@ -213,6 +213,98 @@ svg:hover {
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  /* CSS */
+@media (min-width: 376px) and (max-width: 480px) {
+  .logo-container {
+    position: inherit;
+    transform: rotate(0);
+    box-shadow: 0 0;
+    border-radius: 5%;
+    height: 70%;
+    width: 30%;
+  }
+  .logo-img {
+    height: 90%;
+    width: 90%;
+  }
+  .header {
+    width: 90%;
+    height: 40px;
+    justify-content: space-between;
+  }
+  .svg-container {
+    width: 90%;
+    height: 70%;
+  }
+  .go-back {
+    height: 25px;
+    width: 70px;
+  }
+  .logo-container {
+    height: 80%;
+  }
+  .reset-btn {
+    height: 25px;
+    width: 70px;
+  }
+  .color-palette {
+    width: 120%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+  }
+  .single-color {
+    height: 45px;
+    width: 55px;
+  }
+  .single-color-active {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .logo-container {
+    position: inherit;
+    transform: rotate(0);
+    box-shadow: 0 0;
+    border-radius: 5%;
+    height: 70%;
+    width: 30%;
+  }
+  .logo-img {
+    height: 90%;
+    width: 90%;
+  }
+  .header {
+    width: 90%;
+    height: 50px;
+  }
+  .go-back {
+    height: 25px;
+    width: 70px;
+  }
+  .logo-container {
+    height: 80%;
+  }
+  .reset-btn {
+    height: 25px;
+    width: 70px;
+  }
+  .svg-container {
+    width: 90%;
+    height: 70%;
+  }
+  .color-palette {
+    width: 150%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+  }
+  .single-color {
+    height: 45px;
+    width: 55px;
+  }
+  .single-color-active {
+    height: 50px;
+  }
 }
