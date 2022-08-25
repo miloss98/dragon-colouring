@@ -168,35 +168,50 @@ svg:hover {
   }
   .single-color {
     width: 55px;
-    height: 60px;
+    height: 55px;
   }
   .single-color-active {
-    height: 65px;
+    height: 60px;
   }
 }
 
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* CSS */
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
 @media (min-width: 481px) and (max-width: 767px) {
-  /* CSS */
+  .logo-container {
+    position: inherit;
+    transform: rotate(0);
+    box-shadow: 0 0;
+    border-radius: 5%;
+    height: 70%;
+    width: 30%;
+  }
+  .logo-img {
+    height: 90%;
+    width: 90%;
+  }
+  .header {
+    width: 70%;
+    height: 40px;
+    justify-content: space-between;
+  }
+  .go-back {
+    height: 25px;
+    width: 70px;
+  }
+  .reset-btn {
+    height: 25px;
+    width: 70px;
+  }
+  .svg-container {
+    width: 70%;
+  }
+  .single-color {
+    height: 50px;
+    width: 35px;
+  }
+  .single-color-active {
+    height: 55px;
+  }
 }
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
 
 @media (min-width: 320px) and (max-width: 480px) {
   /* CSS */
