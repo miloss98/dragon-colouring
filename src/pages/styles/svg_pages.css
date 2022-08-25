@@ -160,14 +160,17 @@ svg:hover {
     height: 90%;
     width: 90%;
   }
+  .header {
+    width: 70%;
+  }
   .svg-container {
-    width: 55%;
+    width: 60%;
   }
   .pallete-container {
     width: 50%;
   }
   .single-color {
-    width: 55px;
+    width: 45px;
     height: 55px;
   }
   .single-color-active {
@@ -228,12 +231,12 @@ svg:hover {
   }
   .header {
     width: 90%;
-    height: 40px;
+    height: 50px;
     justify-content: space-between;
   }
   .svg-container {
     width: 90%;
-    height: 70%;
+    height: 80%;
   }
   .go-back {
     height: 25px;
@@ -246,12 +249,61 @@ svg:hover {
     height: 25px;
     width: 70px;
   }
+  .svg-container {
+    height: 75%;
+  }
   .color-palette {
-    width: 120%;
+    width: 150%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0.5rem 0rem 0.2rem 0rem;
+  }
+  .single-color {
+    height: 45px;
+    width: 55px;
+  }
+  .single-color-active {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .logo-container {
+    position: inherit;
+    transform: rotate(0);
+    box-shadow: 0 0;
+    border-radius: 5%;
+    height: 70%;
+    width: 30%;
+  }
+  .logo-img {
+    height: 90%;
+    width: 90%;
+  }
+  .header {
+    width: 90%;
+    height: 50px;
+  }
+  .go-back {
+    height: 25px;
+    width: 70px;
+  }
+  .logo-container {
+    height: 80%;
+  }
+  .reset-btn {
+    height: 25px;
+    width: 70px;
+  }
+  .svg-container {
+    width: 90%;
+    height: 75%;
+  }
+  .color-palette {
+    width: 180%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .single-color {
     height: 45px;
@@ -299,6 +351,52 @@ svg:hover {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0.5rem 0rem 0.2rem 0rem;
+  }
+  .single-color {
+    height: 45px;
+    width: 55px;
+  }
+  .single-color-active {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .logo-container {
+    position: inherit;
+    transform: rotate(0);
+    box-shadow: 0 0;
+    border-radius: 5%;
+    height: 70%;
+    width: 30%;
+  }
+  .logo-img {
+    height: 90%;
+    width: 90%;
+  }
+  .header {
+    width: 90%;
+    height: 50px;
+  }
+  .go-back {
+    height: 25px;
+    width: 70px;
+  }
+  .logo-container {
+    height: 80%;
+  }
+  .reset-btn {
+    height: 25px;
+    width: 70px;
+  }
+  .svg-container {
+    width: 90%;
+    height: 75%;
+  }
+  .color-palette {
+    width: 180%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .single-color {
     height: 45px;
