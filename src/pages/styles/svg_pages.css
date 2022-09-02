@@ -99,7 +99,7 @@ svg:hover {
     box-shadow: 0 0;
     border-radius: 5%;
     height: 80%;
-    width: 30%;
+    width: 20%;
   }
   .svg-container {
     width: 60%;
@@ -119,6 +119,7 @@ svg:hover {
 @media (min-width: 1025px) and (max-width: 1280px) {
   .header {
     height: 50px;
+    width: 70%;
   }
   .logo-container {
     position: inherit;
@@ -126,11 +127,11 @@ svg:hover {
     box-shadow: 0 0;
     border-radius: 5%;
     height: 80%;
-    width: 30%;
+    width: 20%;
   }
   .logo-img {
     height: 90%;
-    width: 90%;
+    width: 80%;
   }
   .svg-container {
     width: 55%;
@@ -184,12 +185,12 @@ svg:hover {
     transform: rotate(0);
     box-shadow: 0 0;
     border-radius: 5%;
-    height: 70%;
-    width: 30%;
+    height: 85%;
+    width: 40%;
   }
   .logo-img {
     height: 90%;
-    width: 90%;
+    width: 70%;
   }
   .header {
     width: 70%;
