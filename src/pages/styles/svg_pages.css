@@ -165,7 +165,7 @@ path:hover {
     width: 70%;
   }
   .svg-container {
-    width: 60%;
+    width: 70%;
   }
   .pallete-container {
     width: 50%;
@@ -206,7 +206,7 @@ path:hover {
     width: 70px;
   }
   .svg-container {
-    width: 70%;
+    width: 95%;
   }
   .single-color {
     height: 50px;
@@ -217,7 +217,7 @@ path:hover {
   }
 }
 
-@media (min-width: 376px) and (max-width: 480px) {
+@media (min-width: 427px) and (max-width: 480px) {
   .logo-container {
     position: inherit;
     transform: rotate(0);
@@ -231,7 +231,7 @@ path:hover {
     width: 90%;
   }
   .header {
-    width: 90%;
+    width: 95%;
     height: 40px;
     justify-content: space-between;
   }
@@ -252,6 +252,7 @@ path:hover {
   }
   .svg-container {
     height: 75%;
+    width: 95%;
   }
   .color-palette {
     width: 150%;
@@ -282,7 +283,7 @@ path:hover {
     width: 90%;
   }
   .header {
-    width: 90%;
+    width: 95%;
     height: 45px;
   }
   .go-back {
@@ -297,7 +298,7 @@ path:hover {
     width: 70px;
   }
   .svg-container {
-    width: 90%;
+    width: 95%;
     height: 70%;
   }
   .color-palette {
@@ -328,7 +329,7 @@ path:hover {
     width: 90%;
   }
   .header {
-    width: 90%;
+    width: 95%;
     height: 40px;
   }
   .go-back {
@@ -343,7 +344,7 @@ path:hover {
     width: 70px;
   }
   .svg-container {
-    width: 90%;
+    width: 95%;
     height: 65%;
   }
   .color-palette {
@@ -375,7 +376,7 @@ path:hover {
     width: 90%;
   }
   .header {
-    width: 90%;
+    width: 95%;
     height: 40px;
   }
   .go-back {
@@ -390,7 +391,7 @@ path:hover {
     width: 70px;
   }
   .svg-container {
-    width: 90%;
+    width: 95%;
     height: 65%;
   }
   .color-palette {
